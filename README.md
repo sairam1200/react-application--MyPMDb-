@@ -1,30 +1,32 @@
 # MyPMDb
 Mobile Development Application
 # App’s Context & Data
-The interactions of the application with
-other systems is shown as the data flow between the application and service providers. As there
-are several different services and functionalities the application has to offer, there are also several
-different service providers.
+  The interactions of the application with
+  other systems is shown as the data flow between the application and service providers. As there
+  are several different services and functionalities the application has to offer, there are also several
+  different service providers.
 # Device -
-The application can functionally work if it can have access to some services which
-provided by the device and its OS. Finding the user’s location as an example needs to read
-data from GPS sensors and use it to make the availability check service possible. Most of
-the services might be working with the device storage as there are mostly services storing
-and managing information from internal database and UI.
-– Location from GPS
-– Audio from Microphone
-– Access Internet
-– Access Storage Device
-• Remote Database - There are internet databases that offer different range of information
-about movies which are available to use for developers by open source API:s. Although My
-PMDB application needs to use several providers as the developer team will use data from
-different databases.
-– Movie information / poster / trailer
-– Search result
-– Upcoming Movies
-– Availability control to show where can the movie be watched in relation with the user’s
-location.
-Remote Server - There are some services that need to write the data from user (high safety
+  The application can functionally work if it can have access to some services which
+  provided by the device and its OS. Finding the user’s location as an example needs to read
+  data from GPS sensors and use it to make the availability check service possible. Most of
+  the services might be working with the device storage as there are mostly services storing
+  and managing information from internal database and UI.
+  – Location from GPS
+  – Audio from Microphone
+  – Access Internet
+  – Access Storage Device
+# • Remote Database
+  - There are internet databases that offer different range of information
+  about movies which are available to use for developers by open source API:s. Although My
+  PMDB application needs to use several providers as the developer team will use data from
+  different databases.
+  – Movie information / poster / trailer
+  – Search result
+  – Upcoming Movies
+  – Availability control to show where can the movie be watched in relation with the user’s
+  location.
+# Remote Server -
+There are some services that need to write the data from user (high safety
 demands) and read / use it later. Authentication for the account registration and login is
 an example for this.
 – Registration of a new user is decided to demand as less information as possible and
