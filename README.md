@@ -1,11 +1,12 @@
 # MyPMDb
 Mobile Development Application
-App’s Context & Data
+# App’s Context & Data
 The interactions of the application with
 other systems is shown as the data flow between the application and service providers. As there
 are several different services and functionalities the application has to offer, there are also several
 different service providers.
-Device - The application can functionally work if it can have access to some services which
+# Device -
+The application can functionally work if it can have access to some services which
 provided by the device and its OS. Finding the user’s location as an example needs to read
 data from GPS sensors and use it to make the availability check service possible. Most of
 the services might be working with the device storage as there are mostly services storing
@@ -42,7 +43,7 @@ user is interacting and using the application such as:
 Remote Database - Application searches for movie information using different API:s connected to
 online free databases that offer movie information. For example the user search a title for a movie,
 3 November 28, 2021
-Design Document 1 App’s Context & Data
+# Design Document 1 App’s Context & Data
 then the application uses these remote databases to bring the information the user wishes to see.
 We also consider to develop a feature where the user would be able to import / export watch-list
 into a remote database and use the API to develop more features like sharing with friends and so
@@ -52,7 +53,7 @@ services such as Netflix, Disney Plus, Amazon Prime and etc. These sort of remot
 intended to be used in order to fix the availability service the application provides.
 Internal Sensor - The voice data is collected by a microphone, and the location data is collected
 by GPS.
-Design Evaluation
+# Design Evaluation
 a. Color scheme consist of at list three colors will be used in order to make sure that the colors
 are chosen as planed. The shape of the buttons, icons ,... are chosen as it seems common in
 the eyes of the developer team, but inside the application these objects are consistent with
